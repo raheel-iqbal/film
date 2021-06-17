@@ -3687,7 +3687,9 @@ function Films() {
   }
 
   var filmData = (0,react_redux__WEBPACK_IMPORTED_MODULE_2__.useSelector)(function (state) {
-    return state;
+    var _state$films, _state$films$items, _state$films$items$fi;
+
+    return state === null || state === void 0 ? void 0 : (_state$films = state.films) === null || _state$films === void 0 ? void 0 : (_state$films$items = _state$films.items) === null || _state$films$items === void 0 ? void 0 : (_state$films$items$fi = _state$films$items.films) === null || _state$films$items$fi === void 0 ? void 0 : _state$films$items$fi.items;
   });
   console.log(filmData); // if(userData) {
   //     userData = JSON.parse(userData);

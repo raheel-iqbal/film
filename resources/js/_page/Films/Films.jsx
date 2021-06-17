@@ -12,7 +12,7 @@ function Films () {
         userData = JSON.parse(userData);
     }
 
-    let filmData = useSelector(state => state);
+    let filmData = useSelector(state => state?.films?.items?.films?.items);
     console.log(filmData)
     // if(userData) {
     //     userData = JSON.parse(userData);
